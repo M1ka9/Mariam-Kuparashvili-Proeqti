@@ -6,11 +6,26 @@ body {
 
 header {
   background-color: #800020;
-  height: 150px;
+  height: 100px;
+}
+header .headercontainer {
+  display: flex;
+  justify-content: space-between;
+}
+header .headercontainer .navlist {
+  color: white;
+  font-weight: 700;
+  margin-right: 50px;
+  margin-top: 30px;
+  list-style-type: none;
+  display: flex;
+  gap: 60px;
 }
 header #tbclogo {
   height: 50px;
   width: 50px;
+  margin-left: 50px;
+  margin-top: 20px;
 }
 
 /*# sourceMappingURL=styles.css.map */

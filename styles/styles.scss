@@ -8,10 +8,28 @@ body {
 
 header {
     background-color: variables.$header-color2;
-    height:150px;
+    height:100px;
+        .headercontainer {
+            display:flex;
+            justify-content:space-between;
+
+            .navlist {
+                color:white;
+                font-weight:700;
+                margin-right:50px;
+                margin-top:30px;
+                list-style-type: none;
+                display:flex;
+                gap:60px;
+            }
+        }
 
     #tbclogo {
         height:50px;
         width:50px;
+        margin-left:50px;
+        margin-top:20px;
     }
+
+    
 }
