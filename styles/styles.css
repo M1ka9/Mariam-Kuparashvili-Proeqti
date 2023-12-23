@@ -99,4 +99,18 @@ header #tbclogo {
   padding-left: 100px;
 }
 
+.secondsection {
+  margin-left: 50px;
+  padding-top: 50px;
+}
+.secondsection #header2 {
+  font-size: 50px;
+  color: #800020;
+  font-family: "Poppins", sans-serif;
+}
+.secondsection .flexcontainer2 {
+  display: flex;
+  gap: 100px;
+}
+
 /*# sourceMappingURL=styles.css.map */

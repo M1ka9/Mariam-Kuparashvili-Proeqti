@@ -115,3 +115,19 @@ header {
         padding-left:100px;
     }
 }
+
+.secondsection {
+    margin-left:50px;
+    padding-top:50px;
+
+    #header2 {
+        font-size:50px;
+        color: variables.$header-color2;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .flexcontainer2 {
+        display:flex;
+        gap:100px;
+    }
+}
