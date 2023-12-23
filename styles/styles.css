@@ -1,12 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:wght@100;300;400&display=swap");
 body {
   margin: 0;
   padding: 0;
-  background-color: white;
+  background-color: #fefbed;
 }
 
 header {
   background-color: #800020;
-  height: 100px;
+  height: 120px;
 }
 header .headercontainer {
   display: flex;
@@ -15,6 +16,7 @@ header .headercontainer {
 header .headercontainer .navlist {
   color: white;
   font-weight: 700;
+  font-family: "Poppins", sans-serif;
   margin-right: 50px;
   margin-top: 30px;
   list-style-type: none;
@@ -26,6 +28,75 @@ header #tbclogo {
   width: 50px;
   margin-left: 50px;
   margin-top: 20px;
+}
+
+.firstsection {
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.firstsection #header1 {
+  font-size: 70px;
+  color: #800020;
+  font-family: "Poppins", sans-serif;
+}
+.firstsection #top5christmas {
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  color: rgb(205, 0, 0);
+  margin-left: 90px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+.firstsection #xmastext {
+  margin-left: 90px;
+  width: 500px;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: green;
+}
+.firstsection #secondposter {
+  padding-top: 100px;
+  padding-bottom: 5px;
+}
+.firstsection #top5binge {
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  color: cornflowerblue;
+  margin-left: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+.firstsection #bingetext {
+  margin-left: 40px;
+  width: 500px;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: rgb(0, 23, 128);
+}
+.firstsection #top5halloween {
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  color: black;
+  margin-left: 110px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+.firstsection #halloweentext {
+  margin-left: 30px;
+  width: 600px;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: rgb(99, 197, 204);
+}
+.firstsection .flexcontainer1 {
+  display: flex;
+}
+.firstsection .flexbox2row {
+  padding-top: 300px;
+  padding-left: 100px;
 }
 
 /*# sourceMappingURL=styles.css.map */
