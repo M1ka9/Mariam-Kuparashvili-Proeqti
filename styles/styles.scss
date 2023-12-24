@@ -20,6 +20,7 @@ header {
                 color:white;
                 font-weight:700;
                 font-family: 'Poppins', sans-serif;
+                font-size: 60px;
                 margin-right:50px;
                 margin-top:30px;
                 list-style-type: none;
@@ -36,6 +37,12 @@ header {
     }
 
     
+}
+
+#cinemabackground {
+
+    height:800px;
+    width:1200px;
 }
 
 .firstsection {
@@ -87,7 +94,7 @@ header {
             font-size:18px;
             font-family:'Roboto', sans-serif;
             font-weight:300;
-            color:rgb(0, 23, 128);
+            color:rgb(143, 143, 143);
      }
 
      #top5halloween {
