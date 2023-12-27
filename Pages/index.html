@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Movie Recommendations</title>
     <link rel="stylesheet" href="/styles/styles.css">
+    <script src="https://kit.fontawesome.com/b352fdddf4.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <header>
@@ -20,8 +21,12 @@
         </div>
     </div>
 </header>
-<section class="headerherosection">
-    <img id="cinemabackground" src="/Images/cinema.jpg">
+<section class="herosection">
+    <div class="hero">
+        <img id="cinema" src="/Images/cinema (1).jpg" alt="Cinema">
+        <div id="overlaytextcinema">Find Movie Recommendations</div>
+        <div id="overlaytextcinema2">explore various holiday-themed movies with reviews.</div>
+    </div>
 </section>
 <main>
 <section class="firstsection">
@@ -45,6 +50,15 @@
     </div>
 </div>
 </section>
+
+<section class="socialsection">
+    <ul id="social-bar">
+        <li class="social-icon"><a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f fa-2x"></i></a></li>
+        <li class="social-icon"><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a></li>
+        <li class="social-icon"><a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter fa-2x"></i></a></li>
+      </ul>
+</section>
+
 
 <section class="secondsection">
 <h2 id="header2">Where to watch?</h2>
@@ -71,10 +85,37 @@
     </div>
 </div>
 </section>
-
+<h3 id="sugtext"> Any Suggestions? Fill out the form below!</h3>
 <section class="thirdsection">
-    <div class="contact">
-
+    
+    <div class="suggestions">
+        <img  id="sugpic" src="/Images/Suggestions (1).png" alt="Suggestions">
+    </div>
+    <div id="container">
+        <form>
+            <div class="input-group">
+              <label for="firstName">First Name:</label>
+              <input type="text" id="firstName" name="firstName" required>
+            </div>
+          
+            <div class="input-group">
+              <label for="lastName">Last Name:</label>
+              <input type="text" id="lastName" name="lastName" required>
+            </div>
+          
+            <div class="input-group">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+          
+            <div class="input-group">
+              <label for="suggestions">Write your suggestions here:</label>
+              <textarea id="suggestions" name="suggestions" rows="4" required></textarea>
+            </div>
+          
+            <button type="submit">Submit</button>
+          </form>
+          
     </div>
 
 </section>

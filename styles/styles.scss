@@ -20,7 +20,7 @@ header {
                 color:white;
                 font-weight:700;
                 font-family: 'Poppins', sans-serif;
-                font-size: 60px;
+                font-size: 20px;
                 margin-right:50px;
                 margin-top:30px;
                 list-style-type: none;
@@ -30,20 +30,47 @@ header {
         }
 
     #tbclogo {
-        height:50px;
-        width:50px;
+        height:70px;
+        width:70px;
         margin-left:50px;
         margin-top:20px;
     }
 
     
 }
+    .hero {
+        position:relative;
+        text-align:center;
+        display:flex;
+        justify-content:center;
 
-#cinemabackground {
+        #cinema {
+            width:1300px;
+        }
 
-    height:800px;
-    width:1200px;
-}
+        #overlaytextcinema {
+            color:white;
+            font-family: 'Poppins', sans-serif;
+            font-size:40px;
+            position:absolute;
+            top:30%;
+            left:50%;
+            transform: translate(-50%, -50%);
+        }
+
+        #overlaytextcinema2 {
+            color:firebrick;
+            font-family: 'Poppins', sans-serif;
+            font-size:25px;
+            position:absolute;
+            top:40%;
+            left:50%;
+            transform: translate(-50%, -50%)
+        }
+    }
+
+    
+
 
 .firstsection {
     margin-left:50px;
@@ -123,6 +150,38 @@ header {
         padding-left:100px;
     }
 }
+.socialsection {
+    position:fixed;
+    right:0;
+    color:white;
+    top:50%;
+    margin-right:10px;
+
+        
+        #social-bar {
+            list-style-type: none;
+        }
+    
+    .fa-facebook-f {
+        color:white;
+    
+
+    }
+
+    .fa-instagram {
+        color:white;
+    }
+
+    .fa-twitter {
+        color:white;
+    }
+        
+}
+
+.social-icon1 {
+    width:20px;
+    height:20px;
+}
 
 .secondsection {
     margin-left:50px;
@@ -164,3 +223,75 @@ header {
     }
 
 }
+
+#sugtext {
+    color: variables.$header-color2;
+    font-family: 'Poppins', sans-serif;
+    font-size:40px;
+    margin-left:50px;
+}
+
+.thirdsection {
+    margin-left:50px;
+    display:flex;
+
+        #sugpic {
+            height:700px;
+        }
+        #container {
+            width: 800px;
+            height: 585px;
+            background-color: #161514;
+            padding: 20px;
+            margin-left:50px;
+            margin-top:40px;
+          
+            form {
+              width: 600px;
+              height: 400px;
+              background-color: #161514;
+              display: flex;
+              flex-direction: column;
+              padding: 60px 50px;
+              padding-left:90px;
+          
+              .input-group {
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 15px;
+          
+                label {
+                  color: white;
+                  font-family: 'Roboto', sans-serif; /* Roboto font */
+                  margin-bottom: 5px;
+                }
+          
+                input, textarea {
+                  padding: 8px;
+                  border: none;
+                  border-bottom: 1px solid #ccc; /* Slightly more gray lines */
+                  background-color: transparent;
+                  color: white;
+                  outline: none;
+                  margin-top: 5px;
+                  font-family: 'Roboto', sans-serif; /* Roboto font */
+                }
+              }
+          
+              button {
+                margin-top:50px;
+                margin-left:500px;
+                width:100px;
+                padding: 10px 15px;
+                background-color: darkred;
+                color: white;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+                font-family: 'Roboto', sans-serif; /* Roboto font */
+              }
+            }
+          }
+          
+}
+
