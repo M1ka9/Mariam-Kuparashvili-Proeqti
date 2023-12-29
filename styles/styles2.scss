@@ -1,10 +1,11 @@
 @use 'variables';
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:wght@100;300;400&display=swap');
+
 body {
     margin:0;
     padding:0;
     background-color: #fefbed;
-    background-color:black;
+    background-color:red;
 }
 
 header {
@@ -39,36 +40,6 @@ header {
         color:white;
     }
 }
-    .hero {
-        position:relative;
-        text-align:center;
-        display:flex;
-        justify-content:center;
-
-        #cinema {
-            width:1300px;
-        }
-
-        #overlaytextcinema {
-            color:white;
-            font-family: 'Poppins', sans-serif;
-            font-size:40px;
-            position:absolute;
-            top:30%;
-            left:50%;
-            transform: translate(-50%, -50%);
-        }
-
-        #overlaytextcinema2 {
-            color:firebrick;
-            font-family: 'Poppins', sans-serif;
-            font-size:25px;
-            position:absolute;
-            top:40%;
-            left:50%;
-            transform: translate(-50%, -50%)
-        }
-    }
 
     .socialsection {
         position:fixed;

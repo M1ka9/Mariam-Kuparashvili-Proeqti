@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #fefbed;
-  background-color: black;
+  background-color: black;;
 }
 
 header {
@@ -34,34 +34,6 @@ header #tbclogo {
 header a {
   text-decoration: none;
   color: white;
-}
-
-.hero {
-  position: relative;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-}
-.hero #cinema {
-  width: 1300px;
-}
-.hero #overlaytextcinema {
-  color: white;
-  font-family: "Poppins", sans-serif;
-  font-size: 40px;
-  position: absolute;
-  top: 30%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.hero #overlaytextcinema2 {
-  color: firebrick;
-  font-family: "Poppins", sans-serif;
-  font-size: 25px;
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 .socialsection {
@@ -110,3 +82,5 @@ footer a {
   text-decoration: none;
   color: white;
 }
+
+/*# sourceMappingURL=styles2.css.map */
