@@ -1,1 +1,130 @@
+@use 'variables';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:wght@100;300;400&display=swap');
+body {
+    margin:0;
+    padding:0;
+    background-color: #fefbed;
+    background-color:black;
+}
+
+header {
+    background-color: variables.$header-color2;
+    height:120px;
+        .headercontainer {
+            display:flex;
+            justify-content:space-between;
+
+            .navlist {
+                color:white;
+                font-weight:700;
+                font-family: 'Poppins', sans-serif;
+                font-size: 20px;
+                margin-right:50px;
+                margin-top:30px;
+                list-style-type: none;
+                display:flex;
+                gap:60px;
+            }
+        }
+
+    #tbclogo {
+        height:70px;
+        width:70px;
+        margin-left:50px;
+        margin-top:20px;
+    }
+
+    a {
+        text-decoration:none;
+        color:white;
+    }
+}
+    .hero {
+        position:relative;
+        text-align:center;
+        display:flex;
+        justify-content:center;
+
+        #cinema {
+            width:1300px;
+        }
+
+        #overlaytextcinema {
+            color:white;
+            font-family: 'Poppins', sans-serif;
+            font-size:40px;
+            position:absolute;
+            top:30%;
+            left:50%;
+            transform: translate(-50%, -50%);
+        }
+
+        #overlaytextcinema2 {
+            color:firebrick;
+            font-family: 'Poppins', sans-serif;
+            font-size:25px;
+            position:absolute;
+            top:40%;
+            left:50%;
+            transform: translate(-50%, -50%)
+        }
+    }
+
+    .socialsection {
+        position:fixed;
+        right:0;
+        color:white;
+        top:50%;
+        margin-right:10px;
+    
+            
+            #social-bar {
+                list-style-type: none;
+            }
+        
+        .fa-facebook-f {
+            color:white;
+        
+    
+        }
+    
+        .fa-instagram {
+            color:white;
+        }
+    
+        .fa-twitter {
+            color:white;
+        }
+            
+    }
+    
+    .social-icon1 {
+        width:20px;
+        height:20px;
+    }
+
+    footer {
+        margin-top:100px;
+        height:150px;
+        background-color: black;
+            .footerdiv {
+                display:flex;
+                justify-content: space-around;
+    
+                    .footerdivone {
+                        display:flex;
+                        color:white;   
+                        font-family: 'Poppins', sans-serif;
+    
+                            .footerul {
+                                list-style-type: none;
+                            }
+                    }
+            }
+    
+            a {
+                text-decoration:none;
+                color:white;
+            }
+    }
 
