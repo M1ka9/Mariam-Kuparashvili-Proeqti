@@ -29,7 +29,59 @@
                 <li class="social-icon"><a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter fa-2x"></i></a></li>
               </ul>
         </section>
-        
+        <section id="mainsection">
+            <div class="containerabout">
+                <div class="aboutwebsite">
+                    <img  id="emtpyseats" src="/Images/aboutwebsitepic.jpg" alt="empty cinema seats">
+                </div>
+                <div class="abouttext">
+                    <div id="text1"><p>Hello! My name is Mariam.</p></div>
+                    <div id="text"><p>This is my first project. The website was inspired by my love for movies and cinema(?) The main purpose of the website is to help people who often have trouble deciding what to watch during the holidays. Movies can play a big part in setting the right holiday spirit, but it can take quite a while to decide on a specific movie..</p></div>
+                </div>
+            </div>
+            
+        </section>
     </main>
+    <footer>
+        <div class="footerdiv">
+            <div class="footerdivone">
+                <div class="navbarlist">
+                    <ul class="footerul">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index2.html">About us</a></li>
+                        <li><a>Contact</a></li>
+                        <li><a>News</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="footerul">
+                        <li><a href="#firstsection">Recommendations</a></li>
+                        <li><a href="#secondsection">Where to watch</a></li>
+                        <li><a href="#thirdsection">Suggestions</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="footerul">
+                        <li> +995 5** ** ** **</li>
+                        <li> tbceducation@tbc.ge</li>
+                        <li> Tbilisi, address </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footerdivtwo"><div><a href="https://www.tbceducation.ge/" target="_blank"><img style="height: 50px;;" id="tbclogo" src="/Images/tbclogoo.png" alt="TBC-logo"></a></div></div>
+        </div>
+    </footer>
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+          anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+      
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+              behavior: 'smooth'
+            });
+          });
+        });
+      </script>
+      
 </body>
 </html>

@@ -5,7 +5,7 @@ body {
     margin:0;
     padding:0;
     background-color: #fefbed;
-    background-color:red;
+    background-color: black;
 }
 
 header {
@@ -73,6 +73,40 @@ header {
         width:20px;
         height:20px;
     }
+
+    #mainsection {
+        margin-left:120px;
+        margin-top:200px;
+        margin-bottom:300px;
+
+            #emtpyseats {
+                width:500px;
+
+            }
+
+            .containerabout {
+                display:flex;
+                color:white;
+            }
+
+            .abouttext {
+                margin-left:100px;
+                font-size:20px;
+                font-family: 'Roboto', sans-serif;
+                font-weight:300;
+                width:500px;
+                height:600px;
+                    
+                #text1 {
+                    font-family: 'Poppins', sans-serif;
+                }
+            }
+
+    }
+
+
+
+
 
     footer {
         margin-top:100px;

@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #fefbed;
-  background-color: black;;
+  background-color: black;
 }
 
 header {
@@ -61,6 +61,30 @@ header a {
   height: 20px;
 }
 
+#mainsection {
+  margin-left: 120px;
+  margin-top: 200px;
+  margin-bottom: 300px;
+}
+#mainsection #emtpyseats {
+  width: 500px;
+}
+#mainsection .containerabout {
+  display: flex;
+  color: white;
+}
+#mainsection .abouttext {
+  margin-left: 100px;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  width: 500px;
+  height: 600px;
+}
+#mainsection .abouttext #text1 {
+  font-family: "Poppins", sans-serif;
+}
+
 footer {
   margin-top: 100px;
   height: 150px;
@@ -82,5 +106,3 @@ footer a {
   text-decoration: none;
   color: white;
 }
-
-/*# sourceMappingURL=styles2.css.map */
