@@ -13,7 +13,7 @@
         <div class="logo"><div><a href="https://www.tbceducation.ge/" target="_blank"><img id="tbclogo" src="/Images/tbclogoo.png" alt="TBC-logo"></a></div></div>
         <div class="navigation">
            <ul class="navlist">
-                <li><a>Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a>About us</a></li>
                 <li><a>Contact</a></li>
                 <li><a>News</a></li>
@@ -29,7 +29,7 @@
     </div>
 </section>
 <main>
-<section class="firstsection">
+<section id="firstsection">
 <h1 id="header1">Recommendations</h1>
 <div class="flexcontainer1">
     <div class="flexbox1row">
@@ -60,7 +60,7 @@
 </section>
 
 
-<section class="secondsection">
+<section id="secondsection">
 <h2 id="header2">Where to watch?</h2>
 <div class="flexcontainer2">
     <div class="flexrow3">
@@ -86,7 +86,7 @@
 </div>
 </section>
 <h3 id="sugtext"> Any Suggestions? Fill out the form below!</h3>
-<section class="thirdsection">
+<section id="thirdsection">
     
     <div class="suggestions">
         <img  id="sugpic" src="/Images/Suggestions (1).png" alt="Suggestions">
@@ -120,5 +120,47 @@
 
 </section>
 </main>
+
+<footer>
+    <div class="footerdiv">
+        <div class="footerdivone">
+            <div class="navbarlist">
+                <ul class="footerul">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a>About us</a></li>
+                    <li><a>Contact</a></li>
+                    <li><a>News</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul class="footerul">
+                    <li><a href="#firstsection">Recommendations</a></li>
+                    <li><a href="#secondsection">Where to watch</a></li>
+                    <li><a href="#thirdsection">Suggestions</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul class="footerul">
+                    <li> +995 5** ** ** **</li>
+                    <li> tbceducation@tbc.ge</li>
+                    <li> Tbilisi, address </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footerdivtwo"><div><a href="https://www.tbceducation.ge/" target="_blank"><img style="height: 50px;;" id="tbclogo" src="/Images/tbclogoo.png" alt="TBC-logo"></a></div></div>
+    </div>
+</footer>
+<script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+  
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script>
+  
 </body>
 </html>

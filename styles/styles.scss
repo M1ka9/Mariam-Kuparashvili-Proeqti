@@ -36,7 +36,10 @@ header {
         margin-top:20px;
     }
 
-    
+    a {
+        text-decoration:none;
+        color:white;
+    }
 }
     .hero {
         position:relative;
@@ -72,7 +75,7 @@ header {
     
 
 
-.firstsection {
+#firstsection {
     margin-left:50px;
     margin-top: 20px;
 
@@ -183,7 +186,7 @@ header {
     height:20px;
 }
 
-.secondsection {
+#secondsection {
     margin-left:50px;
     padding-top:50px;
 
@@ -231,7 +234,7 @@ header {
     margin-left:50px;
 }
 
-.thirdsection {
+#thirdsection {
     margin-left:50px;
     display:flex;
 
@@ -295,3 +298,27 @@ header {
           
 }
 
+footer {
+    margin-top:100px;
+    height:150px;
+    background-color: black;
+        .footerdiv {
+            display:flex;
+            justify-content: space-around;
+
+                .footerdivone {
+                    display:flex;
+                    color:white;   
+                    font-family: 'Poppins', sans-serif;
+
+                        .footerul {
+                            list-style-type: none;
+                        }
+                }
+        }
+
+        a {
+            text-decoration:none;
+            color:white;
+        }
+}

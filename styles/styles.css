@@ -31,6 +31,10 @@ header #tbclogo {
   margin-left: 50px;
   margin-top: 20px;
 }
+header a {
+  text-decoration: none;
+  color: white;
+}
 
 .hero {
   position: relative;
@@ -60,16 +64,16 @@ header #tbclogo {
   transform: translate(-50%, -50%);
 }
 
-.firstsection {
+#firstsection {
   margin-left: 50px;
   margin-top: 20px;
 }
-.firstsection #header1 {
+#firstsection #header1 {
   font-size: 70px;
   color: #800020;
   font-family: "Poppins", sans-serif;
 }
-.firstsection #top5christmas {
+#firstsection #top5christmas {
   font-size: 30px;
   font-family: "Poppins", sans-serif;
   color: rgb(205, 0, 0);
@@ -77,7 +81,7 @@ header #tbclogo {
   height: 40px;
   margin-bottom: 10px;
 }
-.firstsection #xmastext {
+#firstsection #xmastext {
   margin-left: 90px;
   width: 500px;
   font-size: 18px;
@@ -85,11 +89,11 @@ header #tbclogo {
   font-weight: 300;
   color: green;
 }
-.firstsection #secondposter {
+#firstsection #secondposter {
   padding-top: 100px;
   padding-bottom: 5px;
 }
-.firstsection #top5binge {
+#firstsection #top5binge {
   font-size: 30px;
   font-family: "Poppins", sans-serif;
   color: cornflowerblue;
@@ -97,7 +101,7 @@ header #tbclogo {
   height: 40px;
   margin-bottom: 10px;
 }
-.firstsection #bingetext {
+#firstsection #bingetext {
   margin-left: 40px;
   width: 500px;
   font-size: 18px;
@@ -105,7 +109,7 @@ header #tbclogo {
   font-weight: 300;
   color: rgb(143, 143, 143);
 }
-.firstsection #top5halloween {
+#firstsection #top5halloween {
   font-size: 30px;
   font-family: "Poppins", sans-serif;
   color: white;
@@ -113,7 +117,7 @@ header #tbclogo {
   height: 40px;
   margin-bottom: 10px;
 }
-.firstsection #halloweentext {
+#firstsection #halloweentext {
   margin-left: 30px;
   width: 600px;
   font-size: 18px;
@@ -121,10 +125,10 @@ header #tbclogo {
   font-weight: 300;
   color: rgb(99, 197, 204);
 }
-.firstsection .flexcontainer1 {
+#firstsection .flexcontainer1 {
   display: flex;
 }
-.firstsection .flexbox2row {
+#firstsection .flexbox2row {
   padding-top: 300px;
   padding-left: 100px;
 }
@@ -154,38 +158,38 @@ header #tbclogo {
   height: 20px;
 }
 
-.secondsection {
+#secondsection {
   margin-left: 50px;
   padding-top: 50px;
 }
-.secondsection #header2 {
+#secondsection #header2 {
   font-size: 50px;
   color: #800020;
   font-family: "Poppins", sans-serif;
 }
-.secondsection .flexcontainer2 {
+#secondsection .flexcontainer2 {
   display: flex;
   gap: 100px;
 }
-.secondsection a {
+#secondsection a {
   text-decoration: none;
 }
-.secondsection .flexcontainer2 {
+#secondsection .flexcontainer2 {
   font-weight: 600;
   font-family: "Roboto", sans-serif;
   font-size: 20px;
   text-align: center;
 }
-.secondsection #netflix {
+#secondsection #netflix {
   color: Red;
 }
-.secondsection #primevideo {
+#secondsection #primevideo {
   color: deepskyblue;
 }
-.secondsection #cavea {
+#secondsection #cavea {
   color: blueviolet;
 }
-.secondsection #disney {
+#secondsection #disney {
   color: darkcyan;
 }
 
@@ -196,14 +200,14 @@ header #tbclogo {
   margin-left: 50px;
 }
 
-.thirdsection {
+#thirdsection {
   margin-left: 50px;
   display: flex;
 }
-.thirdsection #sugpic {
+#thirdsection #sugpic {
   height: 700px;
 }
-.thirdsection #container {
+#thirdsection #container {
   width: 800px;
   height: 585px;
   background-color: #161514;
@@ -211,7 +215,7 @@ header #tbclogo {
   margin-left: 50px;
   margin-top: 40px;
 }
-.thirdsection #container form {
+#thirdsection #container form {
   width: 600px;
   height: 400px;
   background-color: #161514;
@@ -220,17 +224,17 @@ header #tbclogo {
   padding: 60px 50px;
   padding-left: 90px;
 }
-.thirdsection #container form .input-group {
+#thirdsection #container form .input-group {
   display: flex;
   flex-direction: column;
   margin-bottom: 15px;
 }
-.thirdsection #container form .input-group label {
+#thirdsection #container form .input-group label {
   color: white;
   font-family: "Roboto", sans-serif; /* Roboto font */
   margin-bottom: 5px;
 }
-.thirdsection #container form .input-group input, .thirdsection #container form .input-group textarea {
+#thirdsection #container form .input-group input, #thirdsection #container form .input-group textarea {
   padding: 8px;
   border: none;
   border-bottom: 1px solid #ccc; /* Slightly more gray lines */
@@ -240,7 +244,7 @@ header #tbclogo {
   margin-top: 5px;
   font-family: "Roboto", sans-serif; /* Roboto font */
 }
-.thirdsection #container form button {
+#thirdsection #container form button {
   margin-top: 50px;
   margin-left: 500px;
   width: 100px;
@@ -251,6 +255,28 @@ header #tbclogo {
   border-radius: 4px;
   cursor: pointer;
   font-family: "Roboto", sans-serif; /* Roboto font */
+}
+
+footer {
+  margin-top: 100px;
+  height: 150px;
+  background-color: black;
+}
+footer .footerdiv {
+  display: flex;
+  justify-content: space-around;
+}
+footer .footerdiv .footerdivone {
+  display: flex;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+footer .footerdiv .footerdivone .footerul {
+  list-style-type: none;
+}
+footer a {
+  text-decoration: none;
+  color: white;
 }
 
 /*# sourceMappingURL=styles.css.map */
