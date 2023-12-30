@@ -8,7 +8,9 @@ body {
     background-color:black;
 
 }
-
+a {
+    text-decoration:none;
+}
 header {
     background-color: variables.$header-color2;
     height:120px;
