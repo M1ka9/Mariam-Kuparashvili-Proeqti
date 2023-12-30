@@ -1,1 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:wght@100;300;400&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fefbed;
+  background-color: black;
+}
 
+header {
+  background-color: #800020;
+  height: 120px;
+}
+header .headercontainer {
+  display: flex;
+  justify-content: space-between;
+}
+header .headercontainer .navlist {
+  color: white;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  margin-right: 50px;
+  margin-top: 30px;
+  list-style-type: none;
+  display: flex;
+  gap: 60px;
+}
+header #tbclogo {
+  height: 70px;
+  width: 70px;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+.socialsection {
+  position: fixed;
+  right: 0;
+  color: white;
+  top: 50%;
+  margin-right: 10px;
+}
+.socialsection #social-bar {
+  list-style-type: none;
+}
+.socialsection .fa-facebook-f {
+  color: white;
+}
+.socialsection .fa-instagram {
+  color: white;
+}
+.socialsection .fa-twitter {
+  color: white;
+}
+
+.social-icon1 {
+  width: 20px;
+  height: 20px;
+}
+
+#mainsection {
+  margin-top: 100px;
+  margin-left: 50px;
+}
+#mainsection h3 {
+  color: darkred;
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+  margin-left: 15px;
+  width: 250px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+#mainsection #pagetitle {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  margin-bottom: 80px;
+}
+#mainsection .maincontainer {
+  display: flex;
+}
+#mainsection #first3 img {
+  height: 400px;
+  margin-bottom: 120px;
+}
+#mainsection #first3 p {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  margin-left: 15px;
+  text-align: justify;
+}
+#mainsection #firstxmovie {
+  display: flex;
+}
+#mainsection #secondxmovie {
+  display: flex;
+}
+#mainsection #thirdxmovie {
+  display: flex;
+}
+#mainsection #fourthxmovie {
+  display: flex;
+}
+#mainsection #fifthxmovie {
+  display: flex;
+}
+#mainsection .divtextcontainers {
+  margin-top: 0;
+  width: 400px;
+  height: 400px;
+}
+#mainsection #rest2 img {
+  height: 400px;
+  margin-bottom: 100px;
+}
+#mainsection #rest2 {
+  margin-left: 50px;
+  margin-top: 260px;
+  gap: 80px;
+}
+#mainsection p {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  text-align: justify;
+  margin-left: 15px;
+}
+#mainsection #important {
+  margin-top: 40px;
+}
+#mainsection #Polarexpress {
+  margin-top: 10px;
+}
+
+footer {
+  margin-top: 150px;
+  height: 150px;
+  background-color: black;
+}
+footer .footerdiv {
+  display: flex;
+  justify-content: space-around;
+}
+footer .footerdiv .footerdivone {
+  display: flex;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+footer .footerdiv .footerdivone .footerul {
+  list-style-type: none;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
