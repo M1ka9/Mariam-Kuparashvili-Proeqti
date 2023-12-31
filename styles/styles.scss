@@ -377,3 +377,69 @@ footer {
             color:white;
         }
 }
+
+@media (max-width: 768px) {
+
+    body {
+        align-items:center;
+    }
+    header {
+        margin-left:50%;
+        background-color:black;
+    }
+
+    
+    .herosection {
+        margin-left:200px;
+    }
+    .hero {
+        margin-left:50px;
+        margin-right:0px;
+        width:100vh;
+        display:grid;
+    }
+    #firstsection {
+        margin-left:50%;
+        margin-right:50%;
+    }
+    .flexcontainer1 {
+        margin-left:50%;
+        margin-right:50%;
+        transform: translateX(50%); /* Center the image horizontally */
+        flex-wrap: wrap;
+        flex-direction:column;
+    }
+    #firstsection .flexbox2row {
+        padding-top:0px;
+        padding-left:0px;
+    }
+    
+    h1 {
+        margin-left:50%;
+        margin-right:50%;
+    }
+
+    .flexcontainer2 {
+        transform: translateX(50%);
+        flex-direction: column;
+    }
+    
+    h2 {
+        transform: translateX(50%);
+    }
+
+    #thirdsection {
+        flex-direction: column;
+        align-items:center;
+        transform: translateX(50%);
+    }
+
+    #sugtext {
+        transform: translateX(50%);
+    }
+
+    footer {
+        transform: translateX(50%);
+    }
+
+}
