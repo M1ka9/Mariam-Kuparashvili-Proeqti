@@ -25,6 +25,22 @@ header .headercontainer .navlist {
   display: flex;
   gap: 60px;
 }
+header li {
+  opacity: 0;
+  animation: fadeIn 1s ease-in-out forwards;
+}
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+header li {
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.2s ease-in-out;
+}
+header li:hover {
+  border-bottom: 4px solid rgb(108, 0, 0);
+}
 header #tbclogo {
   height: 70px;
   width: 70px;
