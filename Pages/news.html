@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>News</title>
-    <link rel="stylesheet" href="/styles/styles2.css">
+    <link rel="stylesheet" href="/styles/contact.css">
     <link rel="icon" type="image" href="/Images/faviconn.png">
     <script src="https://kit.fontawesome.com/b352fdddf4.js" crossorigin="anonymous"></script>
 </head>
@@ -30,6 +30,33 @@
             <li class="social-icon"><a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter fa-2x"></i></a></li>
           </ul>
     </section>
+    <section id="newsletter">
+        <div class="newsflexbox">
+            <div id="newslatterpic"><img id="subpic"   alt=Subscription src="/Images/newsphoto.png"></div>
+            <div id="newsletter-form">
+            <form onsubmit="clearForm()">
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" name="fname" required>
+
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" name="lname" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <input type="submit" value="Subscribe">
+            </form>
+        </div>
+        </div>
+    </section>
+
+    <script>
+        function clearForm() {
+            document.getElementById("newsletter-form").reset();
+            return false; // Prevents the form from actually submitting
+        }
+    </script>
+
 
 
 

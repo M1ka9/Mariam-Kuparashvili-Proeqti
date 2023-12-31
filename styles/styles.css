@@ -1,0 +1,295 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:wght@100;300;400&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fefbed;
+  background-color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background-color: #800020;
+  height: 120px;
+}
+header .headercontainer {
+  display: flex;
+  justify-content: space-between;
+}
+header .headercontainer .navlist {
+  color: white;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  margin-right: 50px;
+  margin-top: 30px;
+  list-style-type: none;
+  display: flex;
+  gap: 60px;
+}
+header #tbclogo {
+  height: 70px;
+  width: 70px;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+.hero {
+  position: relative;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.hero #cinema {
+  width: 1300px;
+}
+.hero #overlaytextcinema {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.hero #overlaytextcinema2 {
+  color: firebrick;
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#firstsection {
+  margin-left: 50px;
+  margin-top: 20px;
+}
+#firstsection #header1 {
+  font-size: 70px;
+  color: #800020;
+  font-family: "Poppins", sans-serif;
+}
+#firstsection #top5christmas {
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  color: rgb(205, 0, 0);
+  margin-left: 90px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+#firstsection #xmastext {
+  margin-left: 90px;
+  width: 500px;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: green;
+}
+#firstsection #secondposter {
+  padding-top: 100px;
+  padding-bottom: 5px;
+}
+#firstsection #top5binge {
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  color: cornflowerblue;
+  margin-left: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+#firstsection #bingetext {
+  margin-left: 40px;
+  width: 500px;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: rgb(143, 143, 143);
+}
+#firstsection #top5halloween {
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  margin-left: 110px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+#firstsection #halloweentext {
+  margin-left: 30px;
+  width: 600px;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: rgb(99, 197, 204);
+}
+#firstsection .flexcontainer1 {
+  display: flex;
+}
+#firstsection .flexbox2row {
+  padding-top: 300px;
+  padding-left: 100px;
+}
+
+.socialsection {
+  position: fixed;
+  right: 0;
+  color: white;
+  top: 50%;
+  margin-right: 10px;
+}
+.socialsection #social-bar {
+  list-style-type: none;
+}
+.socialsection .fa-facebook-f {
+  color: white;
+}
+.socialsection .fa-instagram {
+  color: white;
+}
+.socialsection .fa-twitter {
+  color: white;
+}
+
+.social-icon1 {
+  width: 20px;
+  height: 20px;
+}
+
+#secondsection {
+  margin-left: 50px;
+  padding-top: 50px;
+}
+#secondsection #header2 {
+  font-size: 50px;
+  color: #800020;
+  font-family: "Poppins", sans-serif;
+}
+#secondsection .flexcontainer2 {
+  display: flex;
+  gap: 100px;
+}
+#secondsection a {
+  text-decoration: none;
+}
+#secondsection .flexcontainer2 {
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+#secondsection #netflix {
+  color: Red;
+}
+#secondsection #primevideo {
+  color: deepskyblue;
+}
+#secondsection #cavea {
+  color: blueviolet;
+}
+#secondsection #disney {
+  color: darkcyan;
+}
+
+#sugtext {
+  color: #800020;
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  margin-left: 50px;
+}
+
+#thirdsection {
+  margin-left: 50px;
+  display: flex;
+}
+#thirdsection #sugpic {
+  height: 700px;
+}
+#thirdsection #container {
+  width: 800px;
+  height: 585px;
+  background-color: #161514;
+  padding: 20px;
+  margin-left: 50px;
+  margin-top: 40px;
+}
+#thirdsection #container form {
+  width: 600px;
+  height: 400px;
+  background-color: #161514;
+  display: flex;
+  flex-direction: column;
+  padding: 60px 50px;
+  padding-left: 90px;
+}
+#thirdsection #container form .input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+#thirdsection #container form .input-group label {
+  color: white;
+  font-family: "Roboto", sans-serif; /* Roboto font */
+  margin-bottom: 5px;
+}
+#thirdsection #container form .input-group input, #thirdsection #container form .input-group textarea {
+  padding: 8px;
+  border: none;
+  border-bottom: 1px solid #ccc; /* Slightly more gray lines */
+  background-color: transparent;
+  color: white;
+  outline: none;
+  margin-top: 5px;
+  font-family: "Roboto", sans-serif; /* Roboto font */
+}
+#thirdsection #container form button {
+  margin-top: 50px;
+  margin-left: 500px;
+  width: 100px;
+  padding: 10px 15px;
+  background-color: darkred;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif; /* Roboto font */
+}
+#thirdsection button {
+  background-color: darkred;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+#thirdsection button:hover {
+  background-color: #8b0000; /* Dark red shade for hover effect */
+}
+
+footer {
+  margin-top: 100px;
+  height: 150px;
+  background-color: black;
+}
+footer .footerdiv {
+  display: flex;
+  justify-content: space-around;
+}
+footer .footerdiv .footerdivone {
+  display: flex;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+footer .footerdiv .footerdivone .footerul {
+  list-style-type: none;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
