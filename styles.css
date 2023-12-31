@@ -29,6 +29,22 @@ header .headercontainer .navlist {
   display: flex;
   gap: 60px;
 }
+header li {
+  opacity: 0;
+  animation: fadeIn 1s ease-in-out forwards;
+}
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+header li {
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.2s ease-in-out;
+}
+header li:hover {
+  border-bottom: 4px solid rgb(108, 0, 0);
+}
 header #tbclogo {
   height: 70px;
   width: 70px;
@@ -259,6 +275,33 @@ header a {
   border-radius: 4px;
   cursor: pointer;
   font-family: "Roboto", sans-serif; /* Roboto font */
+}
+#thirdsection button {
+  background-color: darkred;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+#thirdsection button:hover {
+  background-color: #8b0000; /* Dark red shade for hover effect */
+}
+@keyframes colorChange {
+  0% {
+    background-color: darkred;
+  }
+  100% {
+    background-color: #8b0000;
+  }
+}
+#thirdsection button {
+  background-color: darkred;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  animation: colorChange 2s; /* Animation duration without infinite repetition */
 }
 
 footer {
