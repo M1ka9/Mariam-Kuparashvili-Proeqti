@@ -100,6 +100,7 @@ header {
         
 
             #emtpyseats {
+                margin-top:150px;
                 width:500px;
 
             }
@@ -110,8 +111,9 @@ header {
             }
 
             .abouttext {
+                
                 margin-left:100px;
-                font-size:20px;
+                font-size:15px;
                 font-family: 'Roboto', sans-serif;
                 font-weight:300;
                 width:500px;
@@ -122,6 +124,7 @@ header {
                 }
             }
 
+        
     }
 
 
@@ -129,7 +132,7 @@ header {
 
 
     footer {
-        margin-top:300px;
+        margin-top:350px;
         height:150px;
         background-color: black;
             .footerdiv {
