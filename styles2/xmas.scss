@@ -201,3 +201,42 @@ header {
                 color:white;
             }
     }
+
+    @media (max-width:768px) {
+        header {
+            left:50%;
+            margin-right: -50%;
+            background-color:black;
+        }
+        .maincontainer {
+            flex-direction:column;
+            margin-left:100px;
+
+        }
+        footer {
+            left:50%;
+            margin-right:-50%;
+            margin-top:800px;
+        }
+    }
+
+    @media (max-width:500px) {
+        header {
+            left:50%;
+            margin-right: -50%;
+            background-color:black;
+        }
+        .maincontainer {
+            flex-direction:column;
+            margin-left:40px;
+            margin-bottom:0px;
+        }
+        #tnbch3 {
+            margin-top:200px;
+        }
+        footer {
+            left:50%;
+            margin-right:-50%;
+            margin-top:200px;
+        }
+    }

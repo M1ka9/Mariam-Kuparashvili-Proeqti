@@ -173,3 +173,50 @@ footer a {
   text-decoration: none;
   color: white;
 }
+
+@media (max-width: 768px) {
+  header {
+    left: 50%;
+    margin-right: -50%;
+    background-color: black;
+  }
+  #contactflexbox {
+    flex-direction: column;
+    margin-left: 200px;
+  }
+  .newsflexbox {
+    flex-direction: column;
+    margin-left: 200px;
+  }
+  form {
+    margin-left: 0px;
+  }
+  footer {
+    left: 50%;
+    margin-right: -50%;
+    margin-top: 800px;
+  }
+}
+@media (max-width: 500px) {
+  header {
+    left: 50%;
+    margin-right: -50%;
+    background-color: black;
+  }
+  #contactflexbox {
+    flex-direction: column;
+    margin-left: 40px;
+  }
+  .newsflexbox {
+    flex-direction: column;
+    margin-left: 40px;
+  }
+  form {
+    margin-left: 0px;
+  }
+  footer {
+    left: 50%;
+    margin-right: -50%;
+    margin-top: 800px;
+  }
+}
