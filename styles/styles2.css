@@ -66,6 +66,7 @@ header a {
   margin-top: 200px;
 }
 #mainsection #emtpyseats {
+  margin-top:130px;
   width: 500px;
 }
 #mainsection .containerabout {
@@ -74,14 +75,18 @@ header a {
 }
 #mainsection .abouttext {
   margin-left: 100px;
-  font-size: 20px;
+  font-size: 15px;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
-  width: 500px;
+  width: 600px;
   height: 600px;
 }
 #mainsection .abouttext #text1 {
   font-family: "Poppins", sans-serif;
+}
+
+p {
+  text-align:justify;
 }
 
 footer {
