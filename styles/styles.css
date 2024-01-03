@@ -410,6 +410,19 @@ footer a {
     width: 900px;
     margin-left: 240px;
   }
+   #secondsection #netflix {
+  text-align: initial;
+  }
+  #secondsection #cavea {
+    text-align: initial;
+    }
+  #secondsection #primevideo {
+      text-align: initial;
+      }
+  #secondsection #disney {
+        text-align: initial;
+        }
+
   .flexcontainer1 {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
