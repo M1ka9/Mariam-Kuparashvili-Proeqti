@@ -211,3 +211,123 @@ header {
                 color:white;
             }
     }
+
+    @media (max-width:1280px) {
+
+        #pagetitle {
+            margin-top:50px;
+            margin-left:350px;
+        }
+      .maincontainer {
+        flex-direction:column;
+        margin-left:250px;
+      }
+      #mainsection {
+        margin-left:0;
+        margin-top:0;
+            #rest2 {
+                margin-left:0;
+                margin-top:40px;
+            }
+      }
+    }
+    @media (max-width:1100px) {
+
+        #pagetitle {
+            margin-top:50px;
+            margin-left:200px;
+        }
+      .maincontainer {
+        flex-direction:column;
+        margin-left:200px;
+      }
+    }
+    @media (max-width:1000px) {
+
+        #pagetitle {
+            margin-top:50px;
+            margin-left:150px;
+        }
+      .maincontainer {
+        flex-direction:column;
+        margin-left:150px;
+      }
+    }
+    @media (max-width:900px) {
+
+        #pagetitle {
+            margin-top:50px;
+            margin-left:100px;
+        }
+      .maincontainer {
+        flex-direction:column;
+        margin-left:100px;
+      }
+    }
+    @media (max-width: 768px) {
+
+        #pagetitle {
+            margin-top:50px;
+            margin-left:80px;
+        }
+      .maincontainer {
+        flex-direction:column;
+        margin-left:50px;
+      }
+    }
+
+    @media (max-width: 668px) {
+
+        #pagetitle {
+            margin-top:50px;
+            margin-left:30px;
+        }
+      .maincontainer {
+        flex-direction:column;
+        margin-left:20px;
+      }
+
+      p {
+        font-size:13px;
+        width:300px;
+      }
+
+      .divtextcontainers {
+        width:300px;
+      }
+    }
+
+    @media (max-width: 450px) {
+        header {
+            left:50%;
+            margin-right: -50%;
+            background-color:black;
+        }
+        footer {
+            width:300px;
+        }
+
+        #tbclogo {
+            margin-left:50px;
+        }
+
+        img {
+            width:220px;
+            margin-top:30px;
+        }
+
+        main {
+            margin-left:30px;
+        }
+
+        #tbclogo1 {
+            width:50px;
+            margin-left:50%;
+            opacity:0;
+        }
+
+        .footerdivone {
+            margin-left:20px;
+            width:200px;
+        }
+    }

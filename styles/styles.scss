@@ -14,6 +14,7 @@ a {
 header {
     background-color: variables.$header-color2;
     height:120px;
+    width:100%;
         .headercontainer {
             display:flex;
             justify-content:space-between;
@@ -70,7 +71,7 @@ header {
         justify-content:center;
 
         #cinema {
-            width:1300px;
+            max-width:1300px;
         }
 
         #overlaytextcinema {
@@ -356,6 +357,7 @@ header {
 footer {
     margin-top:100px;
     height:150px;
+    width:100%;
     background-color: black;
         .footerdiv {
             display:flex;
@@ -378,7 +380,7 @@ footer {
         }
 }
 
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
 
     body {
         align-items:center;
@@ -405,7 +407,7 @@ footer {
     .flexcontainer1 {
         margin-left:50%;
         margin-right:50%;
-        transform: translateX(50%); /* Center the image horizontally */
+        transform: translateX(50%); 
         flex-wrap: wrap;
         flex-direction:column;
     }
@@ -442,4 +444,10 @@ footer {
         transform: translateX(50%);
     }
 
+} */
+
+@media (max-width: 768px) {
+    header, footer {
+        width: 100%;
+    }
 }

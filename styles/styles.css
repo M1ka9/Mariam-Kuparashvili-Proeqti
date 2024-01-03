@@ -13,6 +13,7 @@ a {
 header {
   background-color: #800020;
   height: 120px;
+  width: 100%;
 }
 header .headercontainer {
   display: flex;
@@ -63,7 +64,7 @@ header a {
   justify-content: center;
 }
 .hero #cinema {
-  width: 1300px;
+  max-width: 1300px;
 }
 .hero #overlaytextcinema {
   color: white;
@@ -307,6 +308,7 @@ header a {
 footer {
   margin-top: 100px;
   height: 150px;
+  width: 100%;
   background-color: black;
 }
 footer .footerdiv {
@@ -326,58 +328,99 @@ footer a {
   color: white;
 }
 
+/*@media (max-width: 768px) {
+
+    body {
+        align-items:center;
+    }
+    header {
+        margin-left:50%;
+        background-color:black;
+    }
+
+
+    .herosection {
+        margin-left:200px;
+    }
+    .hero {
+        margin-left:50px;
+        margin-right:0px;
+        width:100vh;
+        display:grid;
+    }
+    #firstsection {
+        margin-left:50%;
+        margin-right:50%;
+    }
+    .flexcontainer1 {
+        margin-left:50%;
+        margin-right:50%;
+        transform: translateX(50%); 
+        flex-wrap: wrap;
+        flex-direction:column;
+    }
+    #firstsection .flexbox2row {
+        padding-top:0px;
+        padding-left:0px;
+    }
+
+    h1 {
+        margin-left:50%;
+        margin-right:50%;
+    }
+
+    .flexcontainer2 {
+        transform: translateX(50%);
+        flex-direction: column;
+    }
+
+    h2 {
+        transform: translateX(50%);
+    }
+
+    #thirdsection {
+        flex-direction: column;
+        align-items:center;
+        transform: translateX(50%);
+    }
+
+    #sugtext {
+        transform: translateX(50%);
+    }
+
+    footer {
+        transform: translateX(50%);
+    }
+
+} */
 @media (max-width: 768px) {
-  body {
-    align-items: center;
+  header, footer {
+    width: 100%;
   }
+}
+
+@media screen and (max-width: 767px) {
   header {
-    margin-left: 50%;
-    background-color: black;
+    height: auto; /* Allow header height to adjust based on content */
   }
-  .herosection {
-    margin-left: 200px;
+
+  header .headercontainer {
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center elements horizontally */
+    text-align: center; /* Center text within elements */
   }
-  .hero {
-    margin-left: 50px;
-    margin-right: 0px;
-    width: 100vh;
-    display: grid;
+
+  header {
+    background-color: #800020; /* Ensure background color applies at smaller screen sizes */
   }
-  #firstsection {
-    margin-left: 50%;
-    margin-right: 50%;
+
+  header #tbclogo {
+    margin-left: 0; /* Adjust logo margin for centering */
+    margin-top: 10px; /* Adjust logo margin for centering */
   }
-  .flexcontainer1 {
-    margin-left: 50%;
-    margin-right: 50%;
-    transform: translateX(50%); /* Center the image horizontally */
-    flex-wrap: wrap;
-    flex-direction: column;
-  }
-  #firstsection .flexbox2row {
-    padding-top: 0px;
-    padding-left: 0px;
-  }
-  h1 {
-    margin-left: 50%;
-    margin-right: 50%;
-  }
-  .flexcontainer2 {
-    transform: translateX(50%);
-    flex-direction: column;
-  }
-  h2 {
-    transform: translateX(50%);
-  }
-  #thirdsection {
-    flex-direction: column;
-    align-items: center;
-    transform: translateX(50%);
-  }
-  #sugtext {
-    transform: translateX(50%);
-  }
-  footer {
-    transform: translateX(50%);
+
+  header .headercontainer .navlist {
+    margin-top: 10px; /* Adjust top margin of the navlist */
+    margin-right: 0; /* Remove right margin */
   }
 }
