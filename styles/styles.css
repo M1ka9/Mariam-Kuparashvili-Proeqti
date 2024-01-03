@@ -10,6 +10,10 @@ a {
   text-decoration: none;
 }
 
+p {
+  text-align: justify;
+}
+
 header {
   background-color: #800020;
   height: 120px;
@@ -328,99 +332,425 @@ footer a {
   color: white;
 }
 
-/*@media (max-width: 768px) {
-
-    body {
-        align-items:center;
-    }
-    header {
-        margin-left:50%;
-        background-color:black;
-    }
-
-
-    .herosection {
-        margin-left:200px;
-    }
-    .hero {
-        margin-left:50px;
-        margin-right:0px;
-        width:100vh;
-        display:grid;
-    }
-    #firstsection {
-        margin-left:50%;
-        margin-right:50%;
-    }
-    .flexcontainer1 {
-        margin-left:50%;
-        margin-right:50%;
-        transform: translateX(50%); 
-        flex-wrap: wrap;
-        flex-direction:column;
-    }
-    #firstsection .flexbox2row {
-        padding-top:0px;
-        padding-left:0px;
-    }
-
-    h1 {
-        margin-left:50%;
-        margin-right:50%;
-    }
-
-    .flexcontainer2 {
-        transform: translateX(50%);
-        flex-direction: column;
-    }
-
-    h2 {
-        transform: translateX(50%);
-    }
-
-    #thirdsection {
-        flex-direction: column;
-        align-items:center;
-        transform: translateX(50%);
-    }
-
-    #sugtext {
-        transform: translateX(50%);
-    }
-
-    footer {
-        transform: translateX(50%);
-    }
-
-} */
-@media (max-width: 768px) {
-  header, footer {
-    width: 100%;
+@media (max-width: 1280px) {
+  #header1 {
+    width: 700px;
+    margin-left: 290px;
+  }
+  #header2 {
+    width: 500px;
+    margin-left: 380px;
+  }
+  #sugtext {
+    width: 900px;
+    margin-left: 240px;
+  }
+  .flexcontainer1 {
+    flex-direction: column;
+    margin-left: 320px;
+  }
+  #firstsection {
+    margin-left: 0;
+  }
+  #firstsection #xmastext {
+    margin-left: 50px;
+  }
+  #firstsection .flexbox2row {
+    padding-left: 0;
+    padding-top: 100px;
+  }
+  .flexcontainer2 {
+    flex-direction: column;
+    width: 700px;
+    margin-left: 250px;
+  }
+  .flexrow3 {
+    width: 700px;
+  }
+  #cavea, #disney, #primevideo {
+    margin-left: 300px;
+  }
+  #netflix {
+    margin-left: 330px;
+  }
+  #thirdsection {
+    margin-left: 390px;
+    width: 600px;
+    flex-direction: column;
+  }
+  #thirdsection #container {
+    width: 500px;
+    padding: 15px;
+    margin-left: 0;
+  }
+  #thirdsection #container form {
+    width: 500px;
+    padding-left: 0;
+    padding: 0;
+  }
+  #thirdsection #container form label {
+    margin-left: 15px;
+    margin-top: 20px;
+  }
+  #thirdsection #container form button {
+    margin-left: 190px;
   }
 }
-
-@media screen and (max-width: 767px) {
+@media (max-width: 1100px) {
+  #cinema {
+    width: 1000px;
+  }
+  .hero #overlaytextcinema {
+    font-size: 35px;
+  }
+  #header1 {
+    width: 700px;
+    margin-left: 220px;
+  }
+  #header2 {
+    width: 500px;
+    margin-left: 300px;
+  }
+  #sugtext {
+    width: 700px;
+    margin-left: 230px;
+    font-size: 40px;
+  }
+  .flexcontainer1 {
+    flex-direction: column;
+    margin-left: 250px;
+  }
+  #firstsection {
+    margin-left: 0;
+  }
+  #firstsection #xmastext {
+    margin-left: 50px;
+  }
+  #firstsection .flexbox2row {
+    padding-left: 0;
+    padding-top: 100px;
+  }
+  .flexcontainer2 {
+    flex-direction: column;
+    width: 700px;
+    margin-left: 170px;
+  }
+  .flexrow3 {
+    width: 700px;
+  }
+  #cavea, #disney, #primevideo {
+    margin-left: 300px;
+  }
+  #netflix {
+    margin-left: 330px;
+  }
+  #thirdsection {
+    margin-left: 300px;
+    width: 600px;
+    flex-direction: column;
+  }
+  #thirdsection #container {
+    width: 500px;
+    padding: 15px;
+    margin-left: 0;
+  }
+  #thirdsection #container form {
+    width: 500px;
+    padding-left: 0;
+    padding: 0;
+  }
+  #thirdsection #container form label {
+    margin-left: 15px;
+    margin-top: 20px;
+  }
+  #thirdsection #container form button {
+    margin-left: 190px;
+  }
+}
+@media (max-width: 1000px) {
+  #cinema {
+    width: 900px;
+  }
+  .hero #overlaytextcinema {
+    font-size: 32px;
+  }
+  #firstsection #header1 {
+    font-size: 68px;
+    width: 700px;
+    margin-left: 200px;
+  }
+  .flexcontainer1 {
+    flex-direction: column;
+    margin-left: 220px;
+  }
+  #header2 {
+    width: 500px;
+    margin-left: 270px;
+  }
+  .flexcontainer2 {
+    margin-left: 130px;
+  }
+  #sugtext {
+    font-size: 36px;
+    width: 800px;
+    margin-left: 150px;
+  }
+  #thirdsection {
+    margin-left: 250px;
+  }
+}
+@media (max-width: 900px) {
+  #thecorpsebride {
+    width: 600px;
+  }
+  #cinema {
+    width: 800px;
+  }
+  .hero #overlaytextcinema {
+    font-size: 28px;
+  }
+  #firstsection #header1 {
+    font-size: 60px;
+    width: 700px;
+    margin-left: 170px;
+  }
+  #firstsection #halloweentext {
+    margin-left: 5px;
+  }
+  .flexcontainer1 {
+    flex-direction: column;
+    margin-left: 160px;
+  }
+  #header2 {
+    width: 500px;
+    margin-left: 200px;
+  }
+  .flexcontainer2 {
+    margin-left: 65px;
+  }
+  #sugtext {
+    font-size: 35px;
+    width: 800px;
+    margin-left: 100px;
+  }
+  #thirdsection {
+    margin-left: 200px;
+  }
+}
+@media (max-width: 768px) {
+  .flexbox1row {
+    width: 500px;
+  }
+  #thecorpsebride, #homealone, #secondposter {
+    width: 500px;
+  }
+  #cinema {
+    width: 700px;
+  }
+  .hero #overlaytextcinema {
+    font-size: 24px;
+  }
+  .hero #overlaytextcinema2 {
+    font-size: 22px;
+  }
+  #firstsection #header1 {
+    font-size: 55px;
+    width: 600px;
+    margin-left: 125px;
+  }
+  #firstsection #top5christmas {
+    margin-left: 40px;
+  }
+  #firstsection #xmastext {
+    margin-left: 0;
+  }
+  #firstsection #top5binge {
+    margin-left: 0;
+    margin-bottom: 50px;
+  }
+  #firstsection #bingetext {
+    margin-left: 0;
+  }
+  #firstsection #top5halloween {
+    margin-left: 50px;
+  }
+  #firstsection #halloweentext {
+    margin-left: 0;
+    width: 500px;
+  }
+  .flexcontainer1 {
+    flex-direction: column;
+    margin-left: 145px;
+  }
+  #header2 {
+    width: 500px;
+    margin-left: 130px;
+  }
+  .flexcontainer2 {
+    margin-left: 50px;
+  }
+  #sugtext {
+    font-size: 25px;
+    width: 600px;
+    margin-left: 140px;
+  }
+  #thirdsection {
+    margin-left: 140px;
+    width: 570px;
+  }
+  .watchmovies {
+    width: 500px;
+  }
+  #secondsection {
+    width: 600px;
+  }
+  .flexrow3 {
+    width: 600px;
+  }
+  .flexcontainer2 {
+    width: 600px;
+  }
+  #cavea, #disney, #primevideo {
+    margin-left: 250px;
+  }
+  #netflix {
+    margin-left: 280px;
+  }
+}
+@media (max-width: 450px) {
   header {
-    height: auto; /* Allow header height to adjust based on content */
+    left: 50%;
+    margin-right: -50%;
+    background-color: black;
   }
-
-  header .headercontainer {
-    flex-direction: column; /* Stack elements vertically */
-    align-items: center; /* Center elements horizontally */
-    text-align: center; /* Center text within elements */
+  footer {
+    width: 300px;
   }
-
-  header {
-    background-color: #800020; /* Ensure background color applies at smaller screen sizes */
+  #tbclogo1 {
+    width: 50px;
+    margin-left: 50%;
+    opacity: 0;
   }
-
-  header #tbclogo {
-    margin-left: 0; /* Adjust logo margin for centering */
-    margin-top: 10px; /* Adjust logo margin for centering */
+  .footerdivone {
+    margin-left: 20px;
+    width: 200px;
   }
-
-  header .headercontainer .navlist {
-    margin-top: 10px; /* Adjust top margin of the navlist */
-    margin-right: 0; /* Remove right margin */
+  .hero {
+    margin-left: 320px;
+  }
+  #cinema {
+    width: 600px;
+  }
+  .hero #overlaytextcinema {
+    font-size: 15px;
+    width: 200px;
+  }
+  .hero #overlaytextcinema2 {
+    font-size: 15px;
+    width: 200px;
+    margin-top: 15px;
+  }
+  #homealone, #secondposter, #thecorpsebride {
+    width: 300px;
+  }
+  p {
+    width: 300px;
+  }
+  #firstsection #header1 {
+    font-size: 35px;
+    width: 200px;
+    margin-left: 120px;
+  }
+  .flexbox1row {
+    width: 300px;
+  }
+  #firstsection #top5christmas {
+    width: 250px;
+    font-size: 20px;
+    margin-left: 0;
+  }
+  #firstsection #top5binge {
+    width: 250px;
+    font-size: 20px;
+    margin-left: 0;
+  }
+  #firstsection #top5halloween {
+    width: 250px;
+    font-size: 20px;
+    margin-left: 0;
+  }
+  .firsta {
+    margin-left: 10px;
+    width: 250px;
+    display: block;
+  }
+  #firstsection #xmastext {
+    width: 250px;
+  }
+  #firstsection #halloweentext {
+    width: 250px;
+  }
+  #firstsection #bingetext {
+    width: 250px;
+  }
+  #firstsection {
+    margin-left: 35px;
+  }
+  #header2 {
+    font-size: 25px;
+    width: 250px;
+    margin-left: 150px;
+  }
+  .watchmovies {
+    width: 250px;
+  }
+  .flexcontainer2 {
+    margin-left: 120px;
+    width: 300px;
+  }
+  .flexrow3 {
+    width: 300px;
+  }
+  #cavea, #disney, #primevideo {
+    margin-left: 110px;
+  }
+  #netflix {
+    margin-left: 120px;
+  }
+  #secondsection {
+    width: 300px;
+  }
+  #sugtext {
+    width: 250px;
+    margin-left: 200px;
+  }
+  #thirdsection #sugpic {
+    width: 300px;
+    height: 500px;
+  }
+  #thirdsection {
+    width: 300px;
+  }
+  #thirdsection {
+    margin-left: 180px;
+    width: 300px;
+    flex-direction: column;
+  }
+  #thirdsection #container {
+    width: 300px;
+    padding: 15px;
+    margin-left: 0;
+  }
+  #thirdsection #container form {
+    width: 300px;
+    padding-left: 0;
+    padding: 0;
+  }
+  #thirdsection #container form label {
+    margin-left: 15px;
+    margin-top: 20px;
+  }
+  #thirdsection #container form button {
+    margin-left: 90px;
   }
 }
