@@ -240,15 +240,19 @@ header a {
 }
 #secondsection #netflix {
   color: Red;
+  text-align:center;
 }
 #secondsection #primevideo {
   color: deepskyblue;
+  text-align:center;
 }
 #secondsection #cavea {
   color: blueviolet;
+  text-align:center;
 }
 #secondsection #disney {
   color: darkcyan;
+  text-align:center;
 }
 
 #sugtext {
