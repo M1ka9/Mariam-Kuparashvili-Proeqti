@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:wght@100;300;400&display=swap");
 body {
   margin: 0;
@@ -11,8 +18,12 @@ header {
   height: 120px;
 }
 header .headercontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 header .headercontainer .navlist {
   color: white;
@@ -22,12 +33,20 @@ header .headercontainer .navlist {
   margin-right: 50px;
   margin-top: 30px;
   list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   gap: 60px;
 }
 header li {
   opacity: 0;
-  animation: fadeIn 1s ease-in-out forwards;
+  -webkit-animation: fadeIn 1s ease-in-out forwards;
+          animation: fadeIn 1s ease-in-out forwards;
+}
+@-webkit-keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
 }
 @keyframes fadeIn {
   to {
@@ -36,6 +55,8 @@ header li {
 }
 header li {
   border-bottom: 2px solid transparent;
+  -webkit-transition: border-bottom 0.2s ease-in-out;
+  -o-transition: border-bottom 0.2s ease-in-out;
   transition: border-bottom 0.2s ease-in-out;
 }
 header li:hover {
@@ -97,6 +118,8 @@ header a {
   margin-bottom: 80px;
 }
 #mainsection .maincontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 #mainsection #first3 img {
@@ -110,18 +133,28 @@ header a {
   text-align: justify;
 }
 #mainsection #firstxmovie {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 #mainsection #secondxmovie {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 #mainsection #thirdxmovie {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 #mainsection #fourthxmovie {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 #mainsection #fifthxmovie {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 #mainsection .divtextcontainers {
@@ -158,10 +191,15 @@ footer {
   background-color: black;
 }
 footer .footerdiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 footer .footerdiv .footerdivone {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   color: white;
   font-family: "Poppins", sans-serif;
@@ -180,7 +218,10 @@ footer a {
     margin-left: 350px;
   }
   .maincontainer {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     margin-left: 250px;
   }
   #mainsection {
@@ -198,7 +239,10 @@ footer a {
     margin-left: 200px;
   }
   .maincontainer {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     margin-left: 200px;
   }
 }
@@ -208,7 +252,10 @@ footer a {
     margin-left: 150px;
   }
   .maincontainer {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     margin-left: 150px;
   }
 }
@@ -218,7 +265,10 @@ footer a {
     margin-left: 100px;
   }
   .maincontainer {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     margin-left: 100px;
   }
 }
@@ -228,7 +278,10 @@ footer a {
     margin-left: 80px;
   }
   .maincontainer {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     margin-left: 50px;
   }
 }
@@ -238,7 +291,10 @@ footer a {
     margin-left: 30px;
   }
   .maincontainer {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     margin-left: 20px;
   }
   p {

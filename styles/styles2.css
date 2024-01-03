@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:wght@100;300;400&display=swap");
 body {
   margin: 0;
@@ -11,8 +18,12 @@ header {
   height: 120px;
 }
 header .headercontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 header .headercontainer .navlist {
   color: white;
@@ -22,12 +33,20 @@ header .headercontainer .navlist {
   margin-right: 50px;
   margin-top: 30px;
   list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   gap: 60px;
 }
 header li {
   opacity: 0;
-  animation: fadeIn 1s ease-in-out forwards;
+  -webkit-animation: fadeIn 1s ease-in-out forwards;
+          animation: fadeIn 1s ease-in-out forwards;
+}
+@-webkit-keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
 }
 @keyframes fadeIn {
   to {
@@ -36,6 +55,8 @@ header li {
 }
 header li {
   border-bottom: 2px solid transparent;
+  -webkit-transition: border-bottom 0.2s ease-in-out;
+  -o-transition: border-bottom 0.2s ease-in-out;
   transition: border-bottom 0.2s ease-in-out;
 }
 header li:hover {
@@ -86,6 +107,8 @@ header a {
   width: 500px;
 }
 #mainsection .containerabout {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   color: white;
 }
@@ -108,10 +131,15 @@ footer {
   background-color: black;
 }
 footer .footerdiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 footer .footerdiv .footerdivone {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   color: white;
   font-family: "Poppins", sans-serif;
@@ -141,19 +169,35 @@ footer a {
     margin-right: 50%;
   }
   .flexcontainer2 {
-    transform: translateX(50%);
-    flex-direction: column;
+    -webkit-transform: translateX(50%);
+        -ms-transform: translateX(50%);
+            transform: translateX(50%);
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   h2 {
-    transform: translateX(50%);
+    -webkit-transform: translateX(50%);
+        -ms-transform: translateX(50%);
+            transform: translateX(50%);
   }
   #thirdsection {
-    flex-direction: column;
-    align-items: center;
-    transform: translateX(50%);
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-transform: translateX(50%);
+        -ms-transform: translateX(50%);
+            transform: translateX(50%);
   }
   #sugtext {
-    transform: translateX(50%);
+    -webkit-transform: translateX(50%);
+        -ms-transform: translateX(50%);
+            transform: translateX(50%);
   }
   footer {
     left: 50%;
@@ -163,7 +207,10 @@ footer a {
     height: 400px;
   }
   .containerabout {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   #emtpyseats {
     margin-left: 100px;
@@ -177,17 +224,31 @@ footer a {
 
 @media (max-width: 450px) {
   main {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     text-align: center;
   }
 
   .containerabout {
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 
   #emtpyseats {
@@ -218,6 +279,5 @@ footer a {
     margin-left:0px;
   }
 }
-
 
 

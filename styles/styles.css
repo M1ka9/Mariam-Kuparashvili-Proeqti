@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:wght@100;300;400&display=swap");
 body {
   margin: 0;
@@ -20,8 +27,12 @@ header {
   width: 100%;
 }
 header .headercontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 header .headercontainer .navlist {
   color: white;
@@ -31,12 +42,20 @@ header .headercontainer .navlist {
   margin-right: 50px;
   margin-top: 30px;
   list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   gap: 60px;
 }
 header li {
   opacity: 0;
-  animation: fadeIn 1s ease-in-out forwards;
+  -webkit-animation: fadeIn 1s ease-in-out forwards;
+          animation: fadeIn 1s ease-in-out forwards;
+}
+@-webkit-keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
 }
 @keyframes fadeIn {
   to {
@@ -45,6 +64,8 @@ header li {
 }
 header li {
   border-bottom: 2px solid transparent;
+  -webkit-transition: border-bottom 0.2s ease-in-out;
+  -o-transition: border-bottom 0.2s ease-in-out;
   transition: border-bottom 0.2s ease-in-out;
 }
 header li:hover {
@@ -64,8 +85,12 @@ header a {
 .hero {
   position: relative;
   text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 .hero #cinema {
   max-width: 1300px;
@@ -77,7 +102,9 @@ header a {
   position: absolute;
   top: 30%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 .hero #overlaytextcinema2 {
   color: firebrick;
@@ -86,7 +113,9 @@ header a {
   position: absolute;
   top: 40%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 #firstsection {
@@ -151,6 +180,8 @@ header a {
   color: rgb(99, 197, 204);
 }
 #firstsection .flexcontainer1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 #firstsection .flexbox2row {
@@ -193,6 +224,8 @@ header a {
   font-family: "Poppins", sans-serif;
 }
 #secondsection .flexcontainer2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   gap: 100px;
 }
@@ -227,6 +260,8 @@ header a {
 
 #thirdsection {
   margin-left: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 #thirdsection #sugpic {
@@ -244,14 +279,24 @@ header a {
   width: 600px;
   height: 400px;
   background-color: #161514;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   padding: 60px 50px;
   padding-left: 90px;
 }
 #thirdsection #container form .input-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   margin-bottom: 15px;
 }
 #thirdsection #container form .input-group label {
@@ -287,10 +332,20 @@ header a {
   padding: 10px 15px;
   border: none;
   cursor: pointer;
+  -webkit-transition: background-color 0.3s;
+  -o-transition: background-color 0.3s;
   transition: background-color 0.3s;
 }
 #thirdsection button:hover {
   background-color: #8b0000; /* Dark red shade for hover effect */
+}
+@-webkit-keyframes colorChange {
+  0% {
+    background-color: darkred;
+  }
+  100% {
+    background-color: #8b0000;
+  }
 }
 @keyframes colorChange {
   0% {
@@ -306,7 +361,8 @@ header a {
   padding: 10px 15px;
   border: none;
   cursor: pointer;
-  animation: colorChange 2s; /* Animation duration without infinite repetition */
+  -webkit-animation: colorChange 2s;
+          animation: colorChange 2s; /* Animation duration without infinite repetition */
 }
 
 footer {
@@ -316,10 +372,15 @@ footer {
   background-color: black;
 }
 footer .footerdiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 footer .footerdiv .footerdivone {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   color: white;
   font-family: "Poppins", sans-serif;
@@ -346,7 +407,10 @@ footer a {
     margin-left: 240px;
   }
   .flexcontainer1 {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     margin-left: 320px;
   }
   #firstsection {
@@ -360,7 +424,10 @@ footer a {
     padding-top: 100px;
   }
   .flexcontainer2 {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     width: 700px;
     margin-left: 250px;
   }
@@ -376,7 +443,10 @@ footer a {
   #thirdsection {
     margin-left: 390px;
     width: 600px;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   #thirdsection #container {
     width: 500px;
@@ -417,7 +487,10 @@ footer a {
     font-size: 40px;
   }
   .flexcontainer1 {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     margin-left: 250px;
   }
   #firstsection {
@@ -431,7 +504,10 @@ footer a {
     padding-top: 100px;
   }
   .flexcontainer2 {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     width: 700px;
     margin-left: 170px;
   }
@@ -447,7 +523,10 @@ footer a {
   #thirdsection {
     margin-left: 300px;
     width: 600px;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   #thirdsection #container {
     width: 500px;
@@ -480,7 +559,10 @@ footer a {
     margin-left: 200px;
   }
   .flexcontainer1 {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     margin-left: 220px;
   }
   #header2 {
@@ -518,7 +600,10 @@ footer a {
     margin-left: 5px;
   }
   .flexcontainer1 {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     margin-left: 160px;
   }
   #header2 {
@@ -579,7 +664,10 @@ footer a {
     width: 500px;
   }
   .flexcontainer1 {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     margin-left: 145px;
   }
   #header2 {
@@ -734,7 +822,10 @@ footer a {
   #thirdsection {
     margin-left: 180px;
     width: 300px;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   #thirdsection #container {
     width: 300px;
